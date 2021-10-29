@@ -182,6 +182,12 @@ html{
     }
 
 
+    @media (min-width: 1441px) {
+
+         html{
+            background-image: none;
+    }
+
     @media (max-width: 500px) {
 
         .main-box{
