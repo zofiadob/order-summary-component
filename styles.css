@@ -162,6 +162,10 @@ html{
         cursor: pointer;
     }
 
+    .attribution{
+        padding: 10px 0 0 10px;
+    }
+
     .attribution, .attribution a{
         color: #444444;
         text-decoration: none;
@@ -178,8 +182,70 @@ html{
     }
 
 
-    @media (max-width: 540px) {
-        .main-box{
+    @media (max-width: 500px) {
 
+        .main-box{
+            min-width: 330px;
+            max-width: 330px;
         }
+
+        .title-and-desciption, .plan-box, .proceed-button, .cancel-button{
+            max-width: 330px;
+        }
+
+        .title-and-desciption #title{
+            font-size: 25px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .title-and-desciption #description{
+            margin-left: 35px;
+            margin-right: 35px;
+            line-height: 25px;
+            font-size: 15px;
+        }
+
+        .plan-box{
+            margin-left: 5px;
+            width: 78%;
+        }
+
+        .plan-change{
+            margin-right: 0;
+        }
+
+        .plan-display{
+            font-size: 16px;
+        }
+
+        .proceed-button, .cancel-button{
+            font-size: 15px;
+        }
+
+        .picture{
+           background-size: 330px;
+           min-height: 160px;
+        }
+
+        .plan-image{
+            padding: 0;
+        }
+                
+        .proceed-button{
+            width: 78%;
+        }
+
+        .attribution{
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width: 375px) {
+
+        html{
+            background-image: url("/images/pattern-background-mobile.svg");
+        }
+
     }
