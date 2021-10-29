@@ -182,13 +182,14 @@ html{
     }
 
 
-    @media (min-width: 1441px) {
+    @media all and (min-width: 1441px) {
 
          html{
             background-image: none;
     }
+}
 
-    @media (max-width: 500px) {
+    @media all and (max-width: 500px) {
 
         .main-box{
             min-width: 330px;
@@ -248,7 +249,7 @@ html{
 
     }
 
-    @media (max-width: 375px) {
+    @media all and (max-width: 375px) {
 
         html{
             background-image: url("/order-summary-component/images/pattern-background-mobile.svg");
