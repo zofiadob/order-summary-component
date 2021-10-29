@@ -36,7 +36,7 @@ html{
     }
 
     .picture{
-        background-image: url("/images/illustration-hero.svg");
+        background-image: url("/order-summary-component/images/illustration-hero.svg");
         min-height: 220px;
         border-radius: 10px 10px 0 0;
     }
@@ -245,7 +245,7 @@ html{
     @media (max-width: 375px) {
 
         html{
-            background-image: url("/images/pattern-background-mobile.svg");
+            background-image: url("/order-summary-component/images/pattern-background-mobile.svg");
         }
 
     }
