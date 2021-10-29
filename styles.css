@@ -3,15 +3,21 @@ html{
     background-repeat: no-repeat;
     box-sizing: border-box;
     font-family: "Red Hat Display";
-  }
-  
-.all-container{
-    display: inline;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-}
+  }
+
+
+  body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(113, 151, 255, 0.185);   
+  }
+  
 
 
     .main-box{
@@ -169,4 +175,11 @@ html{
     .attribution a:hover{
         color: #766CF1;
         transition: color 0.5s ;
+    }
+
+
+    @media (max-width: 540px) {
+        .main-box{
+
+        }
     }
